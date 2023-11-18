@@ -1,0 +1,78 @@
+.card_container {
+  min-width: 100%;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+color: aqua}
+.footer_newsletter{
+  background-color: #0d7a52;
+  padding: 12px 10px 12px 20px;
+  position: relative;
+  margin-bottom: -35px;
+  border-radius: 50px;
+  align-items: center!important;
+  display: flex!important;
+}
+.mb_sm_15{
+  outline: none;
+}
+.title_block{
+  font-size: 1.8rem;
+  color: #fff;
+}
+.icon_news{
+  width: 54px;
+  height: 21px;
+  background-image: url(https://greenbee-2.myshopify.com/cdn/shop/t/2/assets/icon-news.png?v=14458315962377805291610525193);
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.section_content{
+
+  width: 52%;
+  margin-left: auto!important;
+
+}
+.input_group{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  width: 100%;
+}
+.input_email{
+  height: 46px;
+  font-size: 12px;
+  font-family: Roboto,HelveticaNeue,Helvetica Neue,sans-serif;
+  background: white;
+  color: #666;
+  z-index: initial;
+  border-radius: 30px!important;
+  padding-left: 15px;
+  padding-right: 95px;
+  width: 83%;
+}
+.input_group_btn{
+
+}
+.btn_newsletter_submit{
+  cursor: pointer;
+  height: 46px;
+  line-height: 46px;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 0 14px;
+  letter-spacing: .5px;
+  background-color: #58c06f;
+  border-radius: 30px;
+  margin-left: 8px;
+}
+.newsletter_submit{
+
+}
