@@ -1,0 +1,33 @@
+.grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .5rem;
+}
+
+@media (min-width: 768px) {
+    .grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: .5rem;
+    }   
+}
+
+
+@media (min-width: 1280px) {
+    .grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.4rem;
+    }   
+}
+
+
+@media (min-width: 1600px) {
+    .grid {
+        grid-template-columns: repeat(5, 1fr);
+    }   
+}
+

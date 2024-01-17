@@ -1,14 +1,85 @@
-
 .card_container {
   border-radius: 10px;
   background-color: #fff;
   border: 1px #959595 solid;
-  height: 275px;
+  height: 360px;
   width: 240px;
+  padding: 5px;
+  position: relative;
+  transition: all 40ms;
 
-  img {
-    width: 100%;
-    min-height: 100px;
+  &:hover {
+    box-shadow: 0px 0px 3px 5px #ececec;
   }
 
+  .card_media {
+
+    .media_figure { 
+      margin: 0;
+    }
+
+    img {
+      width: 100%;
+      min-height: 208px;
+    }
+  }
+
+  .card_info {
+    text-align: center;
+
+    .info_name { 
+      font-size: 1rem;
+      font-weight: bold;
+      color: #444;
+      margin-bottom: 1rem;
+    }
+
+    .info_price {
+      display: inline-block ;
+      font-size: .7rem;
+      font-weight: bold;
+      color: #444;
+      margin-bottom: 1.3rem;
+
+    }
+  }
+
+  .button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: calc(0% - 20px);
+    width: 100%;
+
+    .card_button {
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+      text-transform: uppercase;
+      text-align: center;
+      background-color: #f0f0f0;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      -ms-border-radius: 30px;
+      -o-border-radius: 30px;
+      border-radius: 30px;
+      color: #222;
+      padding: 0 5px;
+      width: 90%;
+      max-width: 260px;
+      font-weight: 700;
+      margin: auto;
+      height: 40px;
+      line-height: 40px;
+      border: none;
+      
+      &:hover {
+        cursor: pointer;
+      }
+
+    }
+  }
 }
